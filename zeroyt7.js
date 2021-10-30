@@ -80,7 +80,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 		const Verived = "0@s.whatsapp.net"
 		const txt = mek.message.conversation
 		const botNumber = zeroyt7.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `6283862323152@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `6285712629044@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		const totalchat = await zeroyt7.chats.all()
@@ -116,7 +116,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 				group: 'Khusus Group Tod !'
 			}
 		}
-		faketeks = 'Zero YT7'
+		faketeks = '©AnzkunBotz'
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -356,7 +356,7 @@ switch (command) {
 	
 	Note : Fitur Masih Dikit Karena Baru Jadi
 	Next Update Bakal Di Tambahin
-	Jangan Lupa Subscribe Zero YT7
+	
 `
 zeroyt7.sendMessage(from, menunya, text, {quoted: ftrol})
 	break
